@@ -1,0 +1,208 @@
+body,
+html,
+div,
+img,
+a,
+p,
+ul,
+ol,
+dl,
+dd,
+dt,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+em,
+i,
+form,
+input,
+span,
+button {
+  border: none;
+  font-family: PingFang-SC-Medium;
+  background: transparent;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  outline: none;
+  list-style: none;
+}
+
+img {
+  outline: none;
+  border: none;
+}
+
+body,
+html {
+  /* overflow: hidden;为了在地图出现时蒙层出现禁止底下的页面随鼠标滚动 */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1', Arial, 'Hiragino Sans GB', '\5B8B\4F53';
+}
+
+ul {
+  -webkit-padding-start: 0px;
+}
+
+
+/* i { cursor: pointer;} */
+
+router-link,
+a {
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+}
+
+
+/* a:hover{ text-decoration: none; color: #ff6600; } */
+
+
+/* 页面居中类 */
+
+.center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* 按钮样式 */
+
+.but {
+  background: rgba(47, 133, 252, 1);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  /* width: 100px; */
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* 按钮不可用时的样式 */
+button:disabled {
+  background: rgba(47, 133, 252, 0.7);
+}
+
+a {
+  color: #000000;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* banner图居中 */
+.bannerStyle {
+  width: 1600px;
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+}
+
+
+/* 文本标题样式 */
+.tilStyle {
+  font-family: MicrosoftYaHei-Bold;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #313131;
+}
+
+.blueTil {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: MicrosoftYaHei-Bold;
+  color: #2F85FC;
+  text-align: center;
+}
+
+
+/* 文本正文样式 */
+
+.textStyle {
+  font-family: MicrosoftYaHei;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #313131;
+}
+
+
+/* 城市选择框 */
+
+select {
+  cursor: pointer;
+  font-size: 14px;
+  color: #666666;
+  padding-left: 15px;
+  width: 340px;
+  height: 36px;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
+}
+
+input {
+  font-size: 14px;
+  padding-left: 15px;
+  width: 324px;
+  height: 34px;
+  color: #666666;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+  visibility: hidden;
+}
+
+input[type=date] {
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+}
+
+label {
+  cursor: pointer;
+  float: left;
+  color: #616161;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: block;
+  width: 170px;
+}
+
+textarea {
+  font-size: 14px;
+  padding: 5px;
+  width: 700px;
+  height: 60px;
+  resize: none;
+  color: #666666;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
+}
